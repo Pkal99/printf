@@ -10,8 +10,8 @@
 */
 struct forPrintf
 {
-		char *operation;
-			int (*f)(va_list);
+	char *operation;
+	int (*f)(va_list);
 };
 typedef struct forPrintf toPrint;
 
